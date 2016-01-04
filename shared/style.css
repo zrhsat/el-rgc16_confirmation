@@ -62,14 +62,19 @@ p
 }
 
 div.contentBox{
-    display: flex;
     border:1px solid #d6d3cc;
     background-color: #f5f4f1;
     padding: 1em;
 
 }
-#radioAccept{
+div.contentBox div.col-1{
+    float:left;
     width: 2em;
+}
+div.contentBox div.col-2{
+    margin-left: 2em;    
+}
+#radioAccept{
 }
 button {
     color: #333;
