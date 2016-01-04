@@ -1,0 +1,90 @@
+/* ===========================================================================
+ * File: style.css
+ * =========================================================================== */
+ 
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: darkslategray;
+	background: white;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+h1
+{
+	font-size: 20px;
+}
+
+p
+{
+	margin: 0;
+}
+
+.submit
+{
+	margin-top: 15px;
+}
+
+#centerBox
+{
+	margin: auto;
+	width: 90%;
+	margin-top: 5%;
+}
+
+#inputBox
+{
+	visibility: hidden;
+}
+
+#errorBox
+{
+	visibility: hidden;
+	margin-top: 15px;
+	padding:1em;
+	float: left;
+	clear: left;
+	display: inline-block;
+	background: #ffffaa;
+}
+
+#acceptBox
+{
+	visibility: hidden;
+	margin-top: -55px;
+	padding: 1em;
+	float: left;
+	clear: left;
+	display: inline-block;
+	background: #d6dbba;
+}
+
+div.contentBox{
+    display: flex;
+    border:1px solid #d6d3cc;
+    background-color: #f5f4f1;
+    padding: 1em;
+
+}
+#radioAccept{
+    width: 2em;
+}
+button {
+    color: #333;
+    padding: 0.6em;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+.sat-btn {
+    background-color: #cc0000;
+    border: 1px solid #ab0000;
+    color: #ffffff;
+}
+.sat-btn:hover {
+    background-color: #ab0000;
+    border: 1px solid #ab0000;
+    color: #ffffff;
+}
+  

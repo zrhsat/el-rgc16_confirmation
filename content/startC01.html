@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RGC16 - Confirmation</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="../shared/style.css" />
+		<script type="text/javascript" src="../shared/script.js"></script>
+		<script type="text/javascript" src="../shared/utils.js"></script>
+		<script type="text/javascript" src="../shared/scorm.js"></script>
+		<script type="text/javascript" src="../shared/scorm_api_wrapper.js"></script>
+	</head>
+
+	<body onload="scoLoaded()" onunload="exitSCO()">
+
+		<div id="centerBox">
+
+			<h1 id="title"></h1>
+			
+            <div class="contentBox">
+              <div>
+                  <input type="checkbox" name="accepted" id="radioAccept" value="accepted">
+              </div>
+              <div>
+                  I hereby confirm that I have fully completed all the modules relevant for my qualification of the RGC16 e-learning program within my grace period.
+                         <br><button type="submit" value="Submit" id="buttonSubmit"
+                          onclick="adjustStatus();" class="sat-btn">Submit</button>
+              </div>
+              
+            </div>
+
+
+			<div id="errorBox">
+				<img src="../shared/warning.png" width="12" height="12" alt="">
+				Please click the confirmation first and then "Submit".
+			</div>
+
+			<div id="acceptBox">
+				<img src="../shared/ok.png" width="12" height="12" alt="">
+				Confirmed.
+			</div>
+
+		</div>
+
+	</body>
+</html>
